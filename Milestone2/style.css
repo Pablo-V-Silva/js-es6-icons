@@ -1,0 +1,29 @@
+h1 {
+  font-family: 'Kalam', cursive;
+}
+
+nav {
+  background-color: #29B1DD;
+  height: 80px;
+  line-height: 80px;
+  vertical-align: middle;
+}
+main {
+  background-color: #DDDDDD;
+}
+
+p {
+  text-transform: uppercase;
+}
+
+.animal {
+  color: #0000FF;
+}
+
+.vegetable {
+  color: #FFA500;
+}
+
+.user {
+  color: #800080;
+}

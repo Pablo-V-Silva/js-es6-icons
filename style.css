@@ -4,4 +4,14 @@ h1 {
 
 nav {
   background-color: #29B1DD;
+  height: 80px;
+  line-height: 80px;
+  vertical-align: middle;
+}
+main {
+  background-color: #DDDDDD;
+}
+
+p {
+  text-transform: uppercase;
 }

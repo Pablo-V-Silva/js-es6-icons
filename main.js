@@ -111,3 +111,4 @@ function genCard(icon) {
   </div>
   `
 }
+

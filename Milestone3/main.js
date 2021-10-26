@@ -104,6 +104,10 @@ const row = document.querySelector('.row');
 const iconType = document.getElementById('iconType');
 
 
+icons.forEach(icon => {
+
+  row.innerHTML += genCard(icon);
+})
 function genIcons() {
   row.innerHTML = '';
 
@@ -113,6 +117,7 @@ function genIcons() {
 
       row.innerHTML += genCard(icon);
     }
+
   })
 }
 

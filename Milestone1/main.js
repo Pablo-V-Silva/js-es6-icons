@@ -105,9 +105,11 @@ icons.forEach(icon => {
 
 function genCard(icon) {
   return `
-  <div class="col bg-light rounded text-center">
+  <div class="col">
+  <div class="bg-light rounded text-center">
     <i class="${icon.family} ${icon.prefix}${icon.name} fa-5x pt-4"></i>
     <p class="fs-3"><strong>${icon.name}</strong></p>
+    </div>
   </div>
   `
 }
